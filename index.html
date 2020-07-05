@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wakacyjne domy i kondominia - Airbnb</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav class="navigation">
+  		<div class="container">
+   			<ul>
+		       <li id="logo"><a href="#"><i class="fab fa-airbnb"></i></a></li>
+		       <li><a href="#">Zaloguj się</a></li>
+		       <li><a href="#">Zarejestruj się</a></li>
+		       <li><a href="#">Pomoc</a></li>
+		       <li><a href="#f">Zostań gospodarzem atrakcji</a></li>
+		       <li><a href="#f">Zostań gospodarzem domu</a></li>
+		       <li><a href="#f">zł PLN</a></li>
+    		</ul>
+  		</div>
+	</nav>
+	<section class="splash">
+		<div class="splash-main">
+			<div class="splash-container">
+				<div class="page-intro">
+					<div class="intro">
+						<h1>Rezerwuj wyjątkowe miejsca na pobyt i odkrywaj pomysły na spędzanie czasu.</h1>
+					</div>
+				</div>
+				<div class="form">
+					<form id="form" action="#">
+						<label class="label" for="gdzie">Gdzie</label><br>
+						<input type="text" name="gdzie" id="gdzie" value="W dowolnym miejscu"><br>
+						<label class="label" id="data-zam">Zameldowanie </label><label class="label">Wymeldowanie</label><br>
+						<input type="date" type="date" name="zameldowanie" id="zameldowanie" value="dd-mm-rrrr"><input type="date" name="wymeldowanie" id="wymeldowanie" value="dd-mm-rrrr"><br>
+						<label class="label" for="dorośli" id="adults">Dorośli</label>
+						<select id="dorośli">
+							<option>1 dorosły</option>
+							<option>2 dorosłych</option>
+							<option>3 dorosłych</option>
+							<option>4 dorosłych</option>
+							<option>5 dorosłych</option>
+							<option>6 dorosłych</option>
+							<option>7 dorosłych</option>
+							<option>8 dorosłych</option>
+							<option>9 dorosłych</option>
+							<option>10 dorosłych</option>
+							<option>11 dorosłych</option>
+							<option>12 dorosłych</option>
+							<option>13 dorosłych</option>
+							<option>14 dorosłych</option>
+							<option>15 dorosłych</option>
+							<option>16 dorosłych</option>
+						</select>
+						<label id="kids" for="dzieci">Dzieci</label><br>
+						<select id="dzieci">
+							<option>1 dziecko</option>
+							<option>2 dzieci</option>
+							<option>3 dzieci</option>
+							<option>4 dzieci</option>
+							<option>5 dzieci</option>
+							<option>6 dzieci</option>
+							<option>7 dzieci</option>
+							<option>8 dzieci</option>
+							<option>9 dzieci</option>
+							<option>10 dzieci</option>
+							<option>11 dzieci</option>
+							<option>12 dzieci</option>
+							<option>13 dzieci</option>
+							<option>14 dzieci</option>
+							<option>15 dzieci</option>
+							<option>16 dzieci</option>
+						</select><br>
+					</form>
+					<button type="submit" id="szukaj">Szukaj</button>
+				</div>
+			</div>
+		</div>
+		<div class="splash-footer">
+			<div class="splash-info">
+				<a href="#"><span class="s-info">Ponad 300 unikatowych domów</span></a>
+			</div>
+		</div>
+	</section>
+	<section class="explore">
+		<div class="section-title">
+			<h2 class="subtitle">Explore Airbnb</h2>
+		</div>
+		<div class="attractions-list">
+			<a href="#" class="attraction-link">
+				<div class="attraction">
+					<div class="attraction-photo">
+						<img src="https://i.postimg.cc/NMZKg7yD/brown-wooden-center-table-584399.jpg" class="a-photo">
+					</div>
+					<div class="attraction-content">
+						<span class="attraction-title">Pobyty</span>
+					</div>
+				</div>
+			</a>
+			<a href="#" class="attraction-link">
+				<div class="attraction">
+					<div class="attraction-photo">
+						<img src="https://i.postimg.cc/xCpR7yzR/tourists-riding-a-boat-2108831.jpg" class="a-photo">
+					</div>
+					<div class="attraction-content">
+						<span class="attraction-title">Atrakcje</span>
+					</div>
+				</div>
+			</a>
+			<a href="#" class="attraction-link">
+				<div class="attraction">
+					<div class="attraction-photo">
+						<img src="https://i.postimg.cc/nLRSbJ8B/scenic-view-from-the-temple-733047.jpg" class="a-photo">
+					</div>
+					<div class="attraction-content">
+						<span class="attraction-title">Wyprawy</span>
+					</div>
+				</div>
+			</a>
+		</div>
+	</section>
+	<section class="big-photo-section">
+		<div class="big-photo-div">
+			<div class="big-photo">
+				<img src="https://i.postimg.cc/QM7WLJGJ/background-black-colors-cookies-239581.jpg">
+			</div>
+			<div class="big-photo-text">
+				<span id="przedstawiamy">Przedstawiamy</span>
+				<p id="big-photo-title"><b>Gotowanie</b></p><br>
+				<span id="big-photo-sub">w Atrakcjach Airbnb</span>
+			</div>	
+			<div class="big-photo-button">
+				<button class="dowiedz">Dowiedz się więcej</button>
+			</div>
+		</div>	
+	</section>
+	<section class="trips">
+		<div class="trips-title">
+			<h2 class="subtitle">Przedstawiamy Wyprawy Airbnb</h2>
+			<p class="sub-paragraph">Kilkudniowe wycieczki organizowane przez lokalnych ekspertów (zajęcia, posiłki i zakwaterowanie wliczone w cenę)</p>
+		</div>
+		<div class="trips-container">
+			<div class="trip">
+				<img src="https://i.postimg.cc/8zh0Z2QV/scenic-view-of-dramatic-sky-during-winter-258112.jpg"><br>
+				<span class="country">Norwegia</span><br>
+				<span class="offer">2 Nights PACKAGE All-Inclusive</span><br>
+				<span class="price">Od 2 467zł/osobę · 3 dni</span><br>
+				<i class="fas fa-star"></i><span>5.0 (1)</span>
+			</div>
+			<div class="trip">
+				<img src="https://i.postimg.cc/dVKCjXjd/arched-window-architecture-beach-cliff-572780.jpg"><br>
+				<span class="country">Włochy</span><br>
+				<span class="offer">Sailing Sardinia's Hidden Coastlines</span><br>
+				<span class="price">Od 14 188zł/osobę · 8 dni</span><br>
+			</div>
+			<div class="trip">
+				<img src="https://i.postimg.cc/pdGVdGW3/sunray-across-green-grass-field-1237107.jpg"><br>
+				<span class="country">Szwecja</span><br>
+				<span class="offer">Glamp under the northern lights</span><br>
+				<span class="price">Od 9 923zł/osobę · 6 dni</span><br>
+			</div>
+			<div class="trip">
+				<img src="https://i.postimg.cc/RZJLd88L/buildings-city-clock-downtown-297836.jpg"><br>
+				<span class="country">Niemcy</span><br>
+				<span class="offer">Hidden Berlin</span><br>
+				<span class="price">Od 10 043zł/osobę · 6 dni</span><br>
+			</div>
+			<div class="trip">
+				<img src="https://i.postimg.cc/y6wmdnWJ/ancient-architecture-blue-sky-bridge-461936.jpg"><br>
+				<span class="country">Portugalia</span><br>
+				<span class="offer">See medieval Portugal on horseback</span><br>
+				<span class="price">Od 2 203zł/osobę · 3 dni</span><br>
+				<i class="fas fa-star"></i><span>5.0 (3)</span>
+			</div>
+		</div>
+		<div class="trips-more">
+			<a href="#"><span class="pokaz">Pokaż wszystkie wyprawy ></span></a>
+		</div>
+	</section>
+	<section class="airbnb-plus">
+		<div class="section-title">
+			<h2 class="subtitle">Domy Airbnb Plus</h2>
+			<p class="sub-paragraph">Kolekcja miejsc sprawdzonych pod kątem jakości i stylu</p>
+		</div>
+		<div class="plus-img-div">
+			<img src="https://i.postimg.cc/VsKcMWy3/ashtray-book-cushion-decoration-298842.jpg">
+			<div class="pluslogo-link">
+				<a href="#"><i class="fab fa-airbnb"></i> <span id="plus">plus</span></a>
+			</div>
+		</div>
+	</section>
+	<section class="world-flats">
+		<div class="section-title">
+			<h2 class="subtitle">Miejsca pobytu na całym świecie</h2>
+		</div>
+		<div class="gallery">
+			<figure class="gallery-item gallery-item--1">
+				<img src="https://i.postimg.cc/t41wHgT7/apartment-architecture-art-books-276724.jpg" class="gallery-image" alt="Image 1">
+				<p class="world-flats-place">Lecce <span class="gallery-rank">4,89</span></p>
+				<p class="worlds-flats-desc">In the historical place of Lecce</p>
+			</figure>
+			<figure class="gallery-item gallery-item--2">
+				<img src="https://i.postimg.cc/1Xnw3bN0/interior-design-of-a-house-1571460.jpg" class="gallery-image" alt="Image 2">
+				<p class="world-flats-place"><span class="supergospodarz">supergospodarz</span>La Habana <span class="gallery-rank">4,79</span></p>
+				<p class="worlds-flats-desc">Magical B & B by the Sea Havana</p>
+			</figure>
+			<figure class="gallery-item gallery-item--3">
+				<img src="https://i.postimg.cc/rpfrCq1C/apartment-chair-clean-contemporary-279719.jpg" class="gallery-image" alt="Image 3">
+				<p class="world-flats-place"><span class="supergospodarz">supergospodarz</span>Akureyri <span class="gallery-rank">4,75</span></p>
+				<p class="worlds-flats-desc">Amazing view - Moderne apartment</p>
+			</figure>
+			<figure class="gallery-item gallery-item--4">
+				<img src="https://i.postimg.cc/BbKP0DdM/gray-fabric-sofa-placed-indoor-1571468.jpg" class="gallery-image" alt="Image 4">
+				<p class="world-flats-place">Santa Efigenia <span class="gallery-rank">4,81</span></p>
+				<p class="worlds-flats-desc">STUDIO 52. PREDIO FAMOSO</p>
+			</figure>
+			<figure class="gallery-item gallery-item--5">
+				<img src="https://i.postimg.cc/0ysMTVP4/green-2-seat-sofa-1918291.jpg" class="gallery-image" alt="Image 5">
+				<p class="world-flats-place"><span class="supergospodarz">supergospodarz</span>Castro <span class="gallery-rank">4,92</span></p>
+				<p class="worlds-flats-desc">Perfectly located Castro</p>
+			</figure>
+			<figure class="gallery-item gallery-item--6">
+				<img src="https://i.postimg.cc/kgJMNzn7/house-interior-photo-1428348.jpg" class="gallery-image" alt="Image 6">
+				<p class="world-flats-place"><span class="supergospodarz">supergospodarz</span>Alozaina <span class="gallery-rank">4,86</span></p>
+				<p class="worlds-flats-desc">Airstream 'Glamping' in Andalucial</p>
+			</figure>
+			<figure class="gallery-item gallery-item--7">
+				<img src="https://i.postimg.cc/PJMsPfvY/apartment-architecture-ceiling-chair-259962.jpg" class="gallery-image" alt="Image 7">
+				<p class="world-flats-place">Bali <span class="gallery-rank">4,64</span></p>
+				<p class="worlds-flats-desc">Bamboo eco cottage in rice fields</p>
+			</figure>
+			<figure class="gallery-item gallery-item--8">
+				<img src="https://i.postimg.cc/x1h7jNpB/two-black-wooden-bar-stools-near-table-and-french-door-1663263.jpg" class="gallery-image" alt="Image 8">
+				<p class="world-flats-place">Pioneertown <span class="gallery-rank">4,93</span></p>
+				<p class="worlds-flats-desc">Off-grid itHouse</p>
+			</figure>
+		</div>
+		<div class="show-more">
+			<a href="#"><span class="pokaz">Pokaż wszystkie (2000+) ></span></a>
+		</div>
+	</section>
+	<section class="best-reviewed">
+		<div class="section-title">
+			<h2 class="subtitle">Najwyżej oceniane atrakcje</h2>
+			<p class="sub-paragraph">Rezerwuj zajęcia organizowane przez miejscowych gospodarzy podczas kolejnej podróży</p>
+		</div>
+		<div class="trips-container">
+			<div class="trip">
+				<img src="https://i.postimg.cc/XqNfDssS/bridge-cascade-environment-fall-358457.jpg"><br>
+				<span class="country">Malezja</span><br>
+				<span class="offer">Hike & swim in rainforest waterfalls</span><br>
+				<span class="price">Od 172zł/osobę</span><br>
+				<i class="fas fa-star"></i><span>4.99 <span class="people-count">(572)</span></span>
+			</div>
+			<div class="trip">
+				<img src="https://i.postimg.cc/d1d7mprt/people-walking-between-buildings-1559908.jpg"><br>
+				<span class="country">Portugalia</span><br>
+				<span class="offer">This is SINTRA - a day to remember</span><br>
+				<span class="price">Od 274zł/osobę</span><br>
+				<i class="fas fa-star"></i><span>4.95 <span class="people-count">(1609)</span></span>
+			</div>
+			<div class="trip">
+				<img src="https://i.postimg.cc/XJ2PL1bm/dark-alley-1510610.jpg"><br>
+				<span class="country">Japan</span><br>
+				<span class="offer">Ypur personal Tokyo photographer</span><br>
+				<span class="price">Od 359zł/osobę</span><br>
+				<i class="fas fa-star"></i><span>4.95 <span class="people-count">(609)</span></span>
+			</div>
+			<div class="trip">
+				<img src="https://i.postimg.cc/wB4PcbHP/photo-of-llama-during-daytime-2847475.jpg"><br>
+				<span class="country">Australia</span><br>
+				<span class="offer">Walking with alpacas</span><br>
+				<span class="price">Od 82zł/osobę</span><br>
+				<i class="fas fa-star"></i><span>4.93 <span class="people-count">(107)</span></span>
+			</div>
+			<div class="trip">
+				<img src="https://i.postimg.cc/WpFDnLNm/waterfall-1080421.jpg"><br>
+				<span class="country">Portoryko</span><br>
+				<span class="offer">Hike to a hidden waterfall</span><br>
+				<span class="price">Od 318zł/osobę</span><br>
+				<i class="fas fa-star"></i><span>4.97 <span class="people-count">(352)</span></span>
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>
