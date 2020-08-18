@@ -1,3 +1,3 @@
 # airbnb-alike (desktop only)
-## Simple, small design copy of Airbnb site.
+ Non-comercial, static page built with HTML and CSS, using AirBnb design.
 ### Demo: https://lukaszkoziorowski.github.io/airbnb-alike/
